@@ -1,0 +1,8 @@
+{
+  "name": "AZ-104 Media Hub Pro",
+  "description": "A high-performance, local-first media player and transcription analysis tool designed for offline study and segment marking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
