@@ -1,3 +1,5 @@
+https://mikiemapo.github.io/volt-media-hub-tauri-static-live/
+
 
 
 
@@ -7,7 +9,7 @@
 
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   npm install
+   npm run build
+3. cargo tauri ios build --open               
+
