@@ -1,4 +1,4 @@
-const DB_NAME = 'AZ104_StudyVault_Native_V1';
+const DB_NAME = 'AZ104_MediaHub_Local_V1';
 const STORE_NAME = 'media_library';
 
 self.addEventListener('install', () => self.skipWaiting());
