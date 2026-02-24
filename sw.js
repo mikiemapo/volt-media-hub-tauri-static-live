@@ -38,7 +38,7 @@ async function handleUniversalMediaRequest(request) {
 
         const file = item.file;
         const rangeHeader = request.headers.get('range');
-        const contentType = file.type || getMimeType(item.name);
+        const contentType = (file && file.type) ? file.type : getMimeType(item.name);
 
         const commonHeaders = {
             'Content-Type': contentType,
